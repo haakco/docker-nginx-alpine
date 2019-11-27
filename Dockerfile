@@ -1,4 +1,4 @@
-FROM alpine
+FROM alpine:edge
 
 ENV LANG="en_US.UTF-8" \
     LC_ALL="C.UTF-8" \
