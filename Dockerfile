@@ -8,7 +8,7 @@ ENV LANG="en_US.UTF-8" \
 RUN apk --no-cache --update-cache add \
       nginx \
       ca-certificates sudo wget \
-      py2-pip \
+      py3-pip \
       supervisor \
       vim \
       && \
